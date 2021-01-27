@@ -1,0 +1,117 @@
+body {
+  background-color: #19a2ae;
+  background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat no-repeat;
+  background-position: -55% 170%, 155% -80%;
+  background-position: -270px -590px, 700px 300px;
+  overflow: hidden;
+font-family: 'Kumbh Sans', sans-serif;
+}
+
+.content {
+  width: 1366px;
+  height: 657px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CARD */
+.card {
+  width: 350px;
+  height: 376px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 15px 30px 3px hsl(227, 10%, 46%);
+}
+
+/* IMAGES */
+.card-cover {
+  border-radius: 15px 15px 0 0;
+  margin: auto;
+}
+
+.card-content-image {
+  display: flex;
+  position: relative;
+  bottom: 55px;
+  justify-content: center;
+}
+
+.victor-image {
+  border-radius: 50px;
+  border: 4px solid #fff;
+}
+
+.card-body {
+  position: relative;
+  bottom: 55px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1px;
+}
+
+.Victor-crest {
+  color: #2d3248;
+  font-weight: 700;
+}
+
+.card-age {
+  color: #6a6f81;
+  font-weight: lighter;
+  margin: 0 5px;
+}
+
+.card-location {
+  color: #6a6f81;
+  font-weight: lighter;
+  font-size: 15px;
+  margin: -10px;
+}
+
+.card-status {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid #969696;
+  margin: 40px 10px;
+}
+
+.status{
+  text-align: center;
+}
+
+.card-number{
+  font-weight: 700;
+  text-align: center;
+font-size: 1.1rem;
+}
+
+.card-text{
+  color: #6a6f81;
+  font-size: 0.5rem;
+  letter-spacing: 2px;
+  margin-top: -15px;
+}
+
+/* ATTRIBUTION */
+
+.attribution{
+  bottom: 0;
+    padding: 10px;
+    position: fixed;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    color: hsl(229, 23%, 23%);
+}
+
+.attribution a {
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+}
